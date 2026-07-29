@@ -1347,7 +1347,7 @@ if selected == "Similar Cars":
 
 
         st.subheader(
-            "Suggestions similaires"
+            "Similar Cars in the Market"
         )
 
 
