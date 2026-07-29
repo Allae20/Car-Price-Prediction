@@ -1,6 +1,6 @@
 # Car Price Prediction in Morocco
 
-A complete Machine Learning project for predicting used car prices in Morocco using a Random Forest model. The project covers the entire workflow, from data collection and preprocessing to model deployment through an interactive Streamlit application.
+A Machine Learning project for predicting used car prices in Morocco using a Random Forest model. The project covers the complete workflow, from web scraping and data preprocessing to model deployment through an interactive Streamlit application.
 
 ---
 
@@ -9,10 +9,9 @@ A complete Machine Learning project for predicting used car prices in Morocco us
 - Web scraping of used car listings
 - Data cleaning and preprocessing
 - Exploratory Data Analysis (EDA)
-- Random Forest price prediction model
+- Random Forest model for price prediction
 - Interactive Streamlit dashboard
-- AI insights and visual analytics
-- Correlation matrix visualization
+- Data visualization and insights
 - Similar car recommendation
 
 ---
@@ -44,14 +43,15 @@ Car-Price-Prediction/
 ├── data/
 ├── models/
 ├── notebooks/
-└── assets/
+├── assets/
+└── README.md
 ```
 
 ---
 
 ## Installation
 
-Install the required libraries:
+Install the required packages:
 
 ```bash
 pip install -r requirements.txt
@@ -71,10 +71,6 @@ streamlit run app_v2.py
 
 ![Prediction](assets/prediction.png)
 
-### AI Insights
-
-![AI Insights](assets/ai_insights.png)
-
 ### Data Analysis
 
 ![Data Analysis](assets/data_analysis.png)
@@ -82,6 +78,10 @@ streamlit run app_v2.py
 ### Correlation Matrix
 
 ![Correlation Matrix](assets/correlation_matrix.png)
+
+### Additional Data Analysis
+
+![Additional Data Analysis](assets/data_analysis2.png)
 
 ### Similar Cars
 
