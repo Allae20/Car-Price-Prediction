@@ -1,22 +1,25 @@
 # Car Price Prediction in Morocco
 
-A Machine Learning project for predicting used car prices in Morocco using a Random Forest model. The project covers the complete workflow, from web scraping and data preprocessing to model deployment through an interactive Streamlit application.
+A Machine Learning project that predicts the prices of used cars in Morocco using a Random Forest model. This project demonstrates the complete data science workflow, from data collection to deployment through an interactive Streamlit application.
 
 ---
 
-## Features
+## Project Overview
+
+The objective of this project is to estimate the selling price of used cars based on their characteristics such as brand, model, year, fuel type, transmission, and mileage.
+
+The project includes:
 
 - Web scraping of used car listings
 - Data cleaning and preprocessing
 - Exploratory Data Analysis (EDA)
-- Random Forest model for price prediction
+- Random Forest model training
 - Interactive Streamlit dashboard
-- Data visualization and insights
 - Similar car recommendation
 
 ---
 
-## Technologies
+## Technologies Used
 
 - Python
 - Pandas
@@ -51,6 +54,18 @@ Car-Price-Prediction/
 
 ## Installation
 
+Clone the repository:
+
+```bash
+git clone https://github.com/Allae20/Car-Price-Prediction.git
+```
+
+Go to the project folder:
+
+```bash
+cd Car-Price-Prediction
+```
+
 Install the required packages:
 
 ```bash
@@ -69,7 +84,7 @@ streamlit run app_v2.py
 
 ### Price Prediction
 
-![Prediction](assets/prediction.png)
+![Prediction](assets/app_prediction.png)
 
 ### Data Analysis
 
@@ -89,9 +104,19 @@ streamlit run app_v2.py
 
 ---
 
+## Future Improvements
+
+- Improve model accuracy using advanced algorithms
+- Collect a larger dataset
+- Deploy the application online
+- Add more interactive visualizations
+
+---
+
 ## Author
 
 **Allae Elbaze**
 
-Master's Student in Computer Science and Artificial Intelligence  
+Master's Student in Computer Science and Artificial Intelligence
+
 Ibn Tofail University – Morocco
