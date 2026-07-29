@@ -1,7 +1,6 @@
 # Car Price Prediction in Morocco
 
-A complete Machine Learning project for predicting used car prices in Morocco using a Random Forest regression model.
-
+A Machine Learning project for predicting used car prices in Morocco using a Random Forest regression model.
 The project covers the entire machine learning pipeline, including web scraping, data preprocessing, exploratory data analysis, model training, evaluation, and deployment through an interactive Streamlit application.
 
 ---
