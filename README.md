@@ -1,25 +1,24 @@
 # Car Price Prediction in Morocco
 
-A Machine Learning project that predicts the prices of used cars in Morocco using a Random Forest model. This project demonstrates the complete data science workflow, from data collection to deployment through an interactive Streamlit application.
+A complete Machine Learning project for predicting used car prices in Morocco using a Random Forest regression model.
+
+The project covers the entire machine learning pipeline, including web scraping, data preprocessing, exploratory data analysis, model training, evaluation, and deployment through an interactive Streamlit application.
 
 ---
 
-## Project Overview
-
-The objective of this project is to estimate the selling price of used cars based on their characteristics such as brand, model, year, fuel type, transmission, and mileage.
-
-The project includes:
+## Features
 
 - Web scraping of used car listings
 - Data cleaning and preprocessing
 - Exploratory Data Analysis (EDA)
-- Random Forest model training
-- Interactive Streamlit dashboard
+- Random Forest regression model
+- Interactive price prediction
 - Similar car recommendation
+- Data visualization and insights
 
 ---
 
-## Technologies Used
+## Technologies
 
 - Python
 - Pandas
@@ -47,6 +46,7 @@ Car-Price-Prediction/
 ├── models/
 ├── notebooks/
 ├── assets/
+├── requirements.txt
 └── README.md
 ```
 
@@ -66,7 +66,7 @@ Go to the project folder:
 cd Car-Price-Prediction
 ```
 
-Install the required packages:
+Install the required libraries:
 
 ```bash
 pip install -r requirements.txt
@@ -88,17 +88,17 @@ streamlit run app_v2.py
 
 ### Data Analysis
 
-![Data Analysis](assets/data_analysis.png)
+![Data Analysis](assets/data_analysis2.png)
+
+### Dashboard Analytics
+
+![Dashboard Analytics](assets/data_analysis.png)
 
 ### Correlation Matrix
 
 ![Correlation Matrix](assets/correlation_matrix.png)
 
-### Additional Data Analysis
-
-![Additional Data Analysis](assets/data_analysis2.png)
-
-### Similar Cars
+### Similar Cars Recommendation
 
 ![Similar Cars](assets/similar_cars.png)
 
@@ -106,10 +106,10 @@ streamlit run app_v2.py
 
 ## Future Improvements
 
-- Improve model accuracy using advanced algorithms
-- Collect a larger dataset
+- Increase the dataset size
+- Improve prediction accuracy
 - Deploy the application online
-- Add more interactive visualizations
+- Add more advanced visualizations
 
 ---
 
